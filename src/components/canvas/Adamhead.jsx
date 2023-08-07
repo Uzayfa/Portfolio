@@ -11,7 +11,7 @@ import CanvasLoader from '../Loader';
 // if we were to add the Adamhead at the end of the path, we need to remove these {} and it will run//
 
 const Adamhead = ( { isMobile }) => {
-  const head = useGLTF('./Adam_head/adamHead.gltf');
+  const head = useGLTF('./Adam/adamHead.gltf');
  
   return (
    <mesh>
